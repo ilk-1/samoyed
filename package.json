@@ -1,17 +1,24 @@
 {
   "name": "@ilk-1/samoyed",
-  "version": "0.0.4-beta",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.4-beta.1",
+  "description": "A tool to improve the experience of git hooks.",
   "bin": {
     "samoyed": "./bin/index.mjs"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/ilk-1/samoyed"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "git",
+    "hooks",
+    "samoyed"
+  ],
+  "author": "ilk-1 <ilovekfc1024@qq.com>",
+  "license": "MIT",
   "dependencies": {
     "fs-extra": "11.2.0"
   }
