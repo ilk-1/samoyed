@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "dev": "echo \"The dev script in project1\""
+  }
+}

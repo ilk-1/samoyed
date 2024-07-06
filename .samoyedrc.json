@@ -1,0 +1,27 @@
+{
+    "pre-commit": [{
+        "scope": "^apps/project1/",
+        "commands": [
+            "echo 'Hello, world!'",
+            "exit 1",
+            "echo 'Hello, worl121212!'",
+            "echo 'Hello, worl12sqwd!'",
+            "echo 'Hello, worlqwxqxd!'"
+        ]
+    }, {
+        "scope": "^apps/project2/",
+        "commands": [
+            "echo 'Word, pease!'"
+        ]
+    }, {
+        "scope": "^apps/project3/",
+        "commands": [
+            "echo 'Word, pease123!'"
+        ]
+    }, {
+        "scope": "^apps/project4/",
+        "commands": [
+            "echo 'Word, pease123!'"
+        ]
+    }]
+}
