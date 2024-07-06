@@ -31,6 +31,6 @@
     }],
     "commit-msg": [{
         "scope": "^apps/project2/",
-        "commands": "echo 'p2-cm' && exit 1"
+        "commands": ["echo 'p2-cm' && exit 1"]
     }]
 }
