@@ -2,36 +2,33 @@
     "pre-commit": [{
         "scope": "^.*",
         "commands": [
-            "echo 'All match'"
+            "echo 'All match!'"
         ]
     }, {
         "scope": "^apps/project1/",
         "commands": [
-            "echo 'Hello, world!'",
-            "exit 0",
-            "echo 'Hello, worl121212!'",
-            "echo 'Hello, worl12sqwd!'",
-            "echo 'Hello, worlqwxqxd!'",
-            "echo 'pre-commit + scopep1 end'"
+            "echo 'pre-commit  project1'"
         ]
     }, {
         "scope": "^apps/project2/",
         "commands": [
-            "echo 'Word, pease!'"
+            "echo 'pre-commit project2'"
         ]
     }, {
         "scope": "^apps/project3/",
         "commands": [
-            "echo 'Word, pease123!'"
+            "echo 'pre-commit project3'"
         ]
     }, {
         "scope": "^apps/project4/",
         "commands": [
-            "echo 'Word, pease123!'"
+            "echo 'pre-commit project4'"
         ]
     }],
     "commit-msg": [{
         "scope": "^apps/project2/",
-        "commands": ["echo 'p2-cm' && exit 0"]
+        "commands": [
+            "echo 'commit-msg' project2"
+        ]
     }]
 }
