@@ -17,6 +17,10 @@ import { fileURLToPath } from "url";
     fs.mkdirSync(path.join(__shell_path, pkg_name, "githooks"));
 
     fs.copyFile(
+      path.join(__dirname, ".samoyedrc.json"),
+      path.join(__shell_path, ".samoyedrc.json")
+    )
+    fs.copyFile(
       path.join(__dirname, "main.mjs"), 
       path.join(__shell_path, pkg_name, "main.mjs")
     );

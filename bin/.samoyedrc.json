@@ -1,0 +1,9 @@
+{
+    "pre-commit": [{
+        "scope": "^.*",
+        "commands": [
+            "echo 'All match!'"
+        ]
+    }],
+    "commit-msg": []
+}
