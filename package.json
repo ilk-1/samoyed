@@ -12,10 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "ts-node": "^10.9.2"
-  },
   "dependencies": {
-    "fs-extra": "^11.2.0"
+    "fs-extra": "11.2.0"
   }
 }

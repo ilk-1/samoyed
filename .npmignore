@@ -1,0 +1,9 @@
+.sampyed
+apps
+node_modules
+.gitignore
+.npmignore
+.nvmrc
+.samoyedrc.json
+pnpm-lock.yaml
+README.md
