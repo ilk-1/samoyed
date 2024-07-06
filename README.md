@@ -1,5 +1,7 @@
 # samoyed
 
+=================
+
 A tool to improve the experience of git hooks.
 
 [![npm Package](https://img.shields.io/npm/v/@ilk-1/samoyed.svg)](https://www.npmjs.org/package/@ilk-1/samoyed)
