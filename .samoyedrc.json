@@ -1,5 +1,10 @@
 {
     "pre-commit": [{
+        "scope": "^.*",
+        "commands": [
+            "echo 'All match'"
+        ]
+    }, {
         "scope": "^apps/project1/",
         "commands": [
             "echo 'Hello, world!'",
@@ -23,5 +28,9 @@
         "commands": [
             "echo 'Word, pease123!'"
         ]
+    }],
+    "commit-msg": [{
+        "scope": "^apps/project2/",
+        "commands": "echo 'p2-cm' && exit 1"
     }]
 }
