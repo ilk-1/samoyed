@@ -8,10 +8,11 @@
         "scope": "^apps/project1/",
         "commands": [
             "echo 'Hello, world!'",
-            "exit 1",
+            "exit 0",
             "echo 'Hello, worl121212!'",
             "echo 'Hello, worl12sqwd!'",
-            "echo 'Hello, worlqwxqxd!'"
+            "echo 'Hello, worlqwxqxd!'",
+            "echo 'pre-commit + scopep1 end'"
         ]
     }, {
         "scope": "^apps/project2/",
