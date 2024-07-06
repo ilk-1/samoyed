@@ -1,0 +1,9 @@
+#!/bin/sh
+
+
+HOOK_NAME=$(basename "$0")
+SHELL_FOLDER=$(cd "$(dirname "$0")";pwd)
+SAMOYED_FOLDER=$(dirname "$SHELL_FOLDER")
+MAIN_JS_PATH=$SAMOYED_FOLDER/main.mjs
+
+node $MAIN_JS_PATH $HOOK_NAME
