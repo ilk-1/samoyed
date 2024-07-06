@@ -1,8 +1,11 @@
 {
-  "name": "samoyed",
+  "name": "@ilk-1/samoyed",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "samoyed": "./bin/index.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
@@ -11,22 +14,6 @@
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.2"
-  },
-  "samoyed": {
-    "pre-commit": [
-      {
-        "scope": "apps/project1/**/*",
-        "commands": [
-          "echo 'Hello, world!'"
-        ]
-      },
-      {
-        "scope": "apps/project2/**/*",
-        "commands": [
-          "echo 'Word, pease!'"
-        ]
-      }
-    ]
   },
   "dependencies": {
     "fs-extra": "^11.2.0"
