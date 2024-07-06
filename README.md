@@ -6,9 +6,6 @@ A tool to improve the experience of git hooks.
 [![License](https://img.shields.io/npm/l/@ilk-1/samoyed.svg)](https://github.com/ilk-1/samoyed/blob/main/LICENSE)
 [![downloads per month](https://img.shields.io/npm/dm/@ilk-1/samoyed.svg)](https://www.npmjs.org/package/@ilk-1/samoyed)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![GitHub forks](https://img.shields.io/github/forks/ilk-1/samoyed.svg)](https://github.com/ilk-1/samoyed/network)
-[![GitHub stars](https://img.shields.io/github/stars/ilk-1/samoyed.svg)](https://github.com/ilk-1/samoyed/stargazers)
-
 
 
 ## Set up
